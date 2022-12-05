@@ -27,6 +27,11 @@ class EIN
     int key;
     String value;
 
+    EIN()
+    {
+        key = -1;
+        value = null;
+    }
     EIN(int key)
     {
         this.key = key;

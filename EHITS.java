@@ -2,6 +2,7 @@ public class EHITS
 {
     public static void main(String args[])
     {
+
         EIN a = new EIN(40190987);
         EIN b = new EIN(20390987);
         EIN c = new EIN(81990981);
@@ -11,16 +12,6 @@ public class EHITS
         s.add(b);
         s.add(c);
         s.add(d);
-        System.out.println(s);
-        s.sort();
-
-//        HashTable h = new HashTable(60);
-//        h.add(1001);
-//        h.add(10);
-//        h.add(400);
-//        System.out.println(h);
-
-
 
     }
 }
